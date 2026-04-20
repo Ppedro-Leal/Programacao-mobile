@@ -1,50 +1,119 @@
-# Welcome to your Expo app 👋
+# 📱 App de Tarefas - React Native + Expo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📖 Descrição
 
-## Get started
+Este projeto consiste no desenvolvimento de um aplicativo mobile para gerenciamento de tarefas, construído com **React Native utilizando Expo**.
 
-1. Install dependencies
+A aplicação permite ao usuário criar, visualizar, atualizar e excluir tarefas, consumindo uma **API RESTful desenvolvida previamente na disciplina de Aplicações Orientadas a Serviço (AOS)**.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 🚀 Tecnologias Utilizadas
 
-   ```bash
-   npx expo start
-   ```
+### Mobile
+- React Native
+- Expo
+- Expo Router
+- TanStack Query
+- Axios
+- Expo Vector Icons
 
-In the output, you'll find options to open the app in a
+### Backend (integração)
+- Node.js
+- Express
+- Sequelize
+- PostgreSQL (NeonDB)
+- API RESTful hospedada na Vercel
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🔗 Integração com API
 
-## Get a fresh project
+O aplicativo consome uma API RESTful responsável pelo gerenciamento das tarefas.
 
-When you're ready, run:
+### Endpoints utilizados
+- `GET /tarefas` → Listar tarefas
+- `POST /tarefas` → Criar tarefa
+- `PUT /tarefas/:objectId` → Atualizar tarefa
+- `DELETE /tarefas/:objectId` → Remover tarefa
 
-```bash
-npm run reset-project
+### URL da API
+```txt
+https://aplicacoes-orientadas-aservico-tarefas.vercel.app
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## Link do repositório da API
 
-To learn more about developing your project with Expo, look at the following resources:
+👉 ** https://github.com/Ppedro-Leal/AplicacoesOrientadasAservico/tree/main/ativ_tarefas **
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 📱 Funcionalidades
 
-Join our community of developers creating universal apps.
+- Criar novas tarefas
+- Listar tarefas cadastradas
+- Marcar tarefa como concluída
+- Editar descrição da tarefa
+- Excluir tarefa
+- Atualização automática da lista com React Query
+- Interface estilizada com modal de edição
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 🎨 Interface
+
+A aplicação utiliza uma paleta de cores personalizada para manter consistência visual entre as telas.
+
+### Paleta utilizada
+- `#CBDAD5`
+- `#89A7B1`
+- `#566981`
+- `#3A415A`
+- `#34344E`
+
+### Elementos visuais
+- Cards para exibição das tarefas
+- Botões com ícones
+- Modal para edição
+- Feedback visual de carregamento
+- Tela inicial e tela Sobre no mesmo padrão de identidade visual
+
+---
+
+## 🌐 Link do Expo
+
+👉 ** https://expo.dev/preview/update?message=Melhora+de+interface+e+adi%C3%A7%C3%A3o+da+API+criada+em+AOS&updateRuntimeVersion=1.0.0&createdAt=2026-04-20T02%3A45%3A42.363Z&slug=exp&projectId=c2f95e2a-4c52-4e53-a390-5eff81b028b8&group=3bc6e095-170e-4276-8544-7ea2fd124308 **
+
+---
+
+## 🧠 Estrutura do Projeto
+
+A aplicação foi organizada para separar a interface da comunicação com a API.
+
+### Exemplo de organização
+```txt
+app/
+├── index.tsx
+├── about.tsx
+├── tarefas/
+│   └── index.tsx
+
+api/
+└── index.ts
+```
+
+---
+
+## 🔄 Comunicação com a API
+
+A comunicação com o backend foi feita utilizando **Axios**, enquanto o controle de cache, atualização e mutations foi feito com **TanStack Query**.
+
+Isso permitiu:
+
+- Atualização automática da lista após criação, edição e remoção
+- Melhor gerenciamento de loading e erros
+- Código mais organizado para integração com a API RESTful
+
+---
