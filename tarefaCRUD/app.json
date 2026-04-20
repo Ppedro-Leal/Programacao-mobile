@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "expo-01",
-    "slug": "expo-01",
+    "name": "tarefacrud",
+    "slug": "tarefacrud",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "expo01",
+    "scheme": "tarefacrud",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
