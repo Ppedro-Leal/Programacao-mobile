@@ -1,50 +1,56 @@
-# Welcome to your Expo app 👋
+# 📱 UI Kit com React Native Paper
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este projeto foi desenvolvido utilizando **React Native com Expo**, com o objetivo de demonstrar o uso de um **UI Kit** na construção de interfaces modernas para aplicativos mobile.
 
-## Get started
+## 🎨 UI Kit utilizado
 
-1. Install dependencies
+O UI Kit escolhido foi o **React Native Paper**, que segue o padrão **Material Design** e oferece diversos componentes prontos como:
 
-   ```bash
-   npm install
-   ```
+* Botões
+* Cards
+* Inputs
+* Switch
+* Chips
+* Barra de progresso
+* AppBar
 
-2. Start the app
+## 🎯 Objetivo
 
-   ```bash
-   npx expo start
-   ```
+Criar uma aplicação simples com 1 tela demonstrando os principais componentes do UI Kit, aplicando também uma paleta de cores personalizada.
 
-In the output, you'll find options to open the app in a
+## 🎨 Paleta de cores
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+As cores utilizadas no projeto foram:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* #96958A
+* #76877D
+* #88B8A9
+* #B2CBAE
+* #DBDDB4
 
-## Get a fresh project
+## 📦 Tecnologias utilizadas
 
-When you're ready, run:
+* React Native
+* Expo
+* React Native Paper
+* JavaScript / TypeScript
+
+## ▶️ Como executar o projeto
 
 ```bash
-npm run reset-project
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Depois, basta escanear o QR Code com o aplicativo **Expo Go**.
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🌐 Link do Expo
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+👉 **https://expo.dev/preview/update?message=Merge+branch+%27main%27+of+https%3A%2F%2Fgithub.com%2FPpedro-Leal%2FProgramacao-mobile&updateRuntimeVersion=1.0.0&createdAt=2026-04-29T01%3A57%3A26.163Z&slug=exp&projectId=20c1f3b5-452b-44a1-bbdf-7841177bf7ff&group=a534fac4-d42d-4192-b439-bbce0d2a1f96**
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## 📌 Observações
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Este projeto tem fins acadêmicos e foi desenvolvido para a disciplina de Programação para Dispositivos Móveis.
