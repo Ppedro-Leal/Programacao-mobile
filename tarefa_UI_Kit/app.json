@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "tarefacrud",
-    "slug": "tarefacrud",
+    "name": "tarefa_UI_Kit",
+    "slug": "tarefa_UI_Kit",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "tarefacrud",
+    "scheme": "tarefauikit",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -47,14 +47,14 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "c2f95e2a-4c52-4e53-a390-5eff81b028b8"
+        "projectId": "20c1f3b5-452b-44a1-bbdf-7841177bf7ff"
       }
     },
     "runtimeVersion": {
       "policy": "appVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/c2f95e2a-4c52-4e53-a390-5eff81b028b8"
+      "url": "https://u.expo.dev/20c1f3b5-452b-44a1-bbdf-7841177bf7ff"
     }
   }
 }
