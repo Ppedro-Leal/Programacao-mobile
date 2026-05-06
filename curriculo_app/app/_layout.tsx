@@ -36,6 +36,19 @@ export default function RootLayout() {
           name="editar/[id]"
           options={{ title: "Editar Currículo" }}
         />
+        <Stack.Screen
+          name="academica/[id]"
+          options={{ title: "Experiência Acadêmica" }}
+        />
+        <Stack.Screen
+          name="profissional/[id]"
+          options={{ title: "Experiência Profissional" }}
+        />
+        <Stack.Screen name="projetos/[id]" options={{ title: "Projetos" }} />
+        <Stack.Screen
+          name="habilidades/[id]"
+          options={{ title: "Habilidades" }}
+        />
       </Stack>
     </PaperProvider>
   );

@@ -91,7 +91,7 @@ export async function createTecnologia(data: {
   categoria: string;
   pessoaId: number;
 }) {
-  const response = await api.post("/tecnologia", data);
+  const response = await api.post("/tecnologias", data);
   return response.data;
 }
 
@@ -103,12 +103,12 @@ export async function updateTecnologia(
     pessoaId: number;
   },
 ) {
-  const response = await api.put(`/tecnologia/${id}`, data);
+  const response = await api.put(`/tecnologias/${id}`, data);
   return response.data;
 }
 
 export async function deleteTecnologia(id: number) {
-  const response = await api.delete(`/tecnologia/${id}`);
+  const response = await api.delete(`/tecnologias/${id}`);
   return response.data;
 }
 
