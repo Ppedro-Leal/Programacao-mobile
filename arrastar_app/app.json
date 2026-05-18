@@ -1,15 +1,14 @@
 {
   "expo": {
-    "name": "curriculo_app",
-    "slug": "curriculo_app",
+    "name": "arrastar_app",
+    "slug": "arrastar_app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "curriculoapp",
+    "scheme": "arrastarapp",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "icon": "./assets/expo.icon"
     },
     "android": {
       "adaptiveIcon": {
@@ -18,7 +17,6 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
     "web": {
@@ -30,12 +28,10 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff",
-          "dark": {
-            "backgroundColor": "#000000"
+          "backgroundColor": "#208AEF",
+          "android": {
+            "image": "./assets/images/splash-icon.png",
+            "imageWidth": 76
           }
         }
       ]
@@ -47,14 +43,14 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "7f1a80d6-dd1b-45d5-bfd6-d714738527b4"
+        "projectId": "aa195e10-86af-41be-bf59-7278c29393e8"
       }
     },
     "runtimeVersion": {
       "policy": "appVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/7f1a80d6-dd1b-45d5-bfd6-d714738527b4"
+      "url": "https://u.expo.dev/aa195e10-86af-41be-bf59-7278c29393e8"
     }
   }
 }
