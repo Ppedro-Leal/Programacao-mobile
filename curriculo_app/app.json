@@ -3,6 +3,7 @@
     "name": "curriculo_app",
     "slug": "curriculo_app",
     "version": "1.0.0",
+    "owner": "programacao-mobile-unicap"
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "curriculoapp",
