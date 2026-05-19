@@ -4,6 +4,7 @@
     "slug": "arrastar_app",
     "version": "1.0.0",
     "orientation": "portrait",
+    "owner": "programacao-mobile-unicap",
     "icon": "./assets/images/icon.png",
     "scheme": "arrastarapp",
     "userInterfaceStyle": "automatic",
