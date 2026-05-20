@@ -7,6 +7,7 @@
     "icon": "./assets/images/icon.png",
     "scheme": "tarefauikit",
     "userInterfaceStyle": "automatic",
+    "owner": "programacao-mobile-unicap",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
